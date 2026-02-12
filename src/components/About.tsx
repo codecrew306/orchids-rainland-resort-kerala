@@ -5,9 +5,9 @@ export default function About() {
     <section id="about" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Image side */}
-          <div className="relative">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+            {/* Image side - hidden on tablet and mobile */}
+            <div className="relative hidden lg:block">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/resort_front_image-1770867485318.jpeg?width=8000&height=8000&resize=contain"
                 alt="Rainland Resort"

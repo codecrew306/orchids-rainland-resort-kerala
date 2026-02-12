@@ -66,20 +66,20 @@ export default function Hero({ onBookClick }: { onBookClick: () => void }) {
         <p className="text-lg md:text-xl lg:text-2xl font-light mb-10 max-w-2xl animate-fade-in font-[family-name:var(--font-lato)]">
           {slides[current].subtitle}
         </p>
-        <div className="flex gap-4">
-          <button
-            onClick={onBookClick}
-            className="bg-emerald-700 hover:bg-emerald-800 text-white px-8 py-3 rounded-full text-base font-semibold tracking-wide transition-all font-[family-name:var(--font-lato)]"
-          >
-            Book Your Stay
-          </button>
-          <a
-            href="#rooms"
-            className="border-2 border-white/70 hover:border-white hover:bg-white/10 text-white px-8 py-3 rounded-full text-base font-semibold tracking-wide transition-all font-[family-name:var(--font-lato)]"
-          >
-            Explore Rooms
-          </a>
-        </div>
+        <div className="flex flex-col sm:flex-row gap-4">
+            <button
+              onClick={onBookClick}
+              className="bg-emerald-700 hover:bg-emerald-800 text-white px-8 py-3 rounded-full text-base font-semibold tracking-wide transition-all font-[family-name:var(--font-lato)]"
+            >
+              Book Your Stay
+            </button>
+            <a
+              href="#rooms"
+              className="border-2 border-white/70 hover:border-white hover:bg-white/10 text-white px-8 py-3 rounded-full text-base font-semibold tracking-wide transition-all font-[family-name:var(--font-lato)]"
+            >
+              Explore Rooms
+            </a>
+          </div>
 
         {/* Slide indicators */}
         <div className="absolute bottom-10 flex gap-3">
