@@ -11,8 +11,8 @@ const amenities = [
       "Take a refreshing dip in our stunning infinity pool overlooking the lush green valley. Perfect for unwinding after a day of exploring the nearby waterfalls.",
     images: [
       "https://rainlandathirappilly.com/wp-content/uploads/2024/01/ERA06487-scaled.jpg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2024/01/ERA06487-scaled.jpg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2024/01/ERA06487-scaled.jpg",
+      "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.35-PM-1-1.webp",
+      "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.06-PM.webp",
     ],
   },
   {
@@ -21,7 +21,7 @@ const amenities = [
       "Stroll through our enchanting butterfly garden, home to a variety of colourful species. A serene spot for nature lovers and photography enthusiasts.",
     images: [
       "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.04-PM.webp",
-      "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.04-PM.webp",
+      "https://i.ytimg.com/vi/PX00050CYb8/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEUgZSglMA8=&rs=AOn4CLCrsetmt828DCoNF1SxJvFhgYIttQ",
       "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.04-PM.webp",
     ],
   },
@@ -31,7 +31,7 @@ const amenities = [
       "A safe and fun-filled play zone designed to keep the little ones entertained while parents relax. Features swings, slides, and outdoor games.",
     images: [
       "https://rainlandathirappilly.com/wp-content/uploads/2024/01/DSC05490-scaled.jpg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2024/01/DSC05490-scaled.jpg",
+      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-03-at-12.28.33-PM-2048x1365.jpeg",
       "https://rainlandathirappilly.com/wp-content/uploads/2024/01/DSC05490-scaled.jpg",
     ],
   },
