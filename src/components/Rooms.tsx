@@ -8,7 +8,7 @@ const rooms = [
   {
     name: "Deluxe Room",
     image:
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.06.48-PM-3-1024x682.jpeg",
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Deluxe-kings-room-resized-1770867485352.jpeg?width=8000&height=8000&resize=contain",
     beds: "1 Double Bed",
     guests: "2 Adults",
     size: "250 sq.ft",
@@ -16,17 +16,15 @@ const rooms = [
       "A cozy and well-furnished room perfect for couples or solo travellers. Enjoy modern comforts with scenic views of the surrounding greenery.",
     features: ["Free Wi-Fi", "AC", "LED TV", "Attached Bathroom"],
     gallery: [
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.06.47-PM-2-1024x682.jpeg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.06.47-PM-1-1-1024x682.jpeg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.06.48-PM-3-1024x682.jpeg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.06.48-PM-1-1-1024x682.jpeg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.06.49-PM-1-1024x682.jpeg",
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Deluxe-kings-room-resized-1770867485352.jpeg?width=8000&height=8000&resize=contain",
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Deluxe-kings-room3-resized-1770867485345.jpeg?width=8000&height=8000&resize=contain",
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Deluxe-kings-room2-resized-1770867485358.jpeg?width=8000&height=8000&resize=contain",
     ],
   },
   {
     name: "Deluxe Queen Room",
     image:
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.25.14-PM-1.jpeg",
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Deluxe-kings-room-resized-1770867485352.jpeg?width=8000&height=8000&resize=contain",
     beds: "1 Queen Bed",
     guests: "2 Adults, 1 Child",
     size: "300 sq.ft",
@@ -34,17 +32,15 @@ const rooms = [
       "Spacious and elegant, the Deluxe Queen room offers extra space and comfort. Ideal for small families looking for a relaxing stay amidst nature.",
     features: ["Free Wi-Fi", "AC", "LED TV", "Mini Fridge"],
     gallery: [
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.25.14-PM-1.jpeg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.25.13-PM.jpeg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.25.14-PM.jpeg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.25.15-PM.jpeg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.25.15-PM-1.jpeg",
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Deluxe-kings-room-resized-1770867485352.jpeg?width=8000&height=8000&resize=contain",
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/resort_image_1-1770867485340.webp?width=8000&height=8000&resize=contain",
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Deluxe-kings-room2-resized-1770867485358.jpeg?width=8000&height=8000&resize=contain",
     ],
   },
   {
     name: "Deluxe King Room",
     image:
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.32.57-PM-1-1.jpeg",
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Deluxe-kings-room3-resized-1770867485345.jpeg?width=8000&height=8000&resize=contain",
     beds: "1 King Bed + Sofa",
     guests: "2 Adults, 1 Child",
     size: "350 sq.ft",
@@ -52,14 +48,15 @@ const rooms = [
       "Our premium room with a king-sized bed and a comfortable sofa seating area. Features a spacious layout with panoramic views of the hills.",
     features: ["Free Wi-Fi", "AC", "LED TV", "Seating Area"],
     gallery: [
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.32.57-PM-1-1.jpeg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.32.56-PM-1.jpeg",
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Deluxe-kings-room3-resized-1770867485345.jpeg?width=8000&height=8000&resize=contain",
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Deluxe-kings-room-resized-1770867485352.jpeg?width=8000&height=8000&resize=contain",
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/resort_front_image-1770867485318.jpeg?width=8000&height=8000&resize=contain",
     ],
   },
   {
     name: "Superior Family Room",
     image:
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.36.50-PM.jpeg",
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Deluxe-kings-room2-resized-1770867485358.jpeg?width=8000&height=8000&resize=contain",
     beds: "1 King Bed + 2 Singles",
     guests: "4 Adults, 2 Children",
     size: "500 sq.ft",
@@ -67,11 +64,9 @@ const rooms = [
       "A generously sized family room with separate living and sleeping areas. Perfect for families wanting extra room to spread out and enjoy their holiday.",
     features: ["Free Wi-Fi", "AC", "LED TV", "Living Area"],
     gallery: [
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.36.50-PM.jpeg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.36.51-PM.jpeg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.36.52-PM-1.jpeg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-19-at-1.36.52-PM-2.jpeg",
-
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Deluxe-kings-room2-resized-1770867485358.jpeg?width=8000&height=8000&resize=contain",
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Deluxe-kings-room3-resized-1770867485345.jpeg?width=8000&height=8000&resize=contain",
+      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/resort_image_1-1770867485340.webp?width=8000&height=8000&resize=contain",
     ],
   },
 ];

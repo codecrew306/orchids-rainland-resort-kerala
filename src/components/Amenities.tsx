@@ -12,7 +12,7 @@ const amenities = [
     images: [
       "https://rainlandathirappilly.com/wp-content/uploads/2024/01/ERA06487-scaled.jpg",
       "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.35-PM-1-1.webp",
-      "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.06-PM.webp",
+      "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.05-PM-2.webp",
     ],
   },
   {
@@ -22,7 +22,6 @@ const amenities = [
     images: [
       "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.04-PM.webp",
       "https://i.ytimg.com/vi/PX00050CYb8/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEUgZSglMA8=&rs=AOn4CLCrsetmt828DCoNF1SxJvFhgYIttQ",
-      "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.04-PM.webp",
     ],
   },
   {
@@ -32,7 +31,6 @@ const amenities = [
     images: [
       "https://rainlandathirappilly.com/wp-content/uploads/2024/01/DSC05490-scaled.jpg",
       "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-03-at-12.28.33-PM-2048x1365.jpeg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2024/01/DSC05490-scaled.jpg",
     ],
   },
   {
@@ -41,8 +39,8 @@ const amenities = [
       "Savour authentic Kerala cuisine and multi-cuisine dishes at our in-house restaurant. Fresh ingredients and traditional recipes make every meal memorable.",
     images: [
       "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.11-PM-1.webp",
-      "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.11-PM-1.webp",
-      "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.11-PM-1.webp",
+      // "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.11-PM-1.webp",
+      // "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.11-PM-1.webp",
     ],
   },
 ];
@@ -50,76 +48,72 @@ const amenities = [
 function AmenityCard({ amenity }: { amenity: (typeof amenities)[0] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const prev = () =>
-    setCurrentIndex(
-      currentIndex === 0 ? amenity.images.length - 1 : currentIndex - 1
+  const prev = () => {
+    setCurrentIndex((i) =>
+      i === 0 ? amenity.images.length - 1 : i - 1
     );
-  const next = () =>
-    setCurrentIndex(
-      currentIndex === amenity.images.length - 1 ? 0 : currentIndex + 1
+  };
+
+  const next = () => {
+    setCurrentIndex((i) =>
+      i === amenity.images.length - 1 ? 0 : i + 1
     );
+  };
 
   return (
-    <div className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-stone-100">
+    <div className="group bg-stone-50 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 border border-stone-100 hover:border-emerald-100">
       {/* Image Carousel */}
-      <div className="relative h-72 overflow-hidden">
-        {amenity.images.map((img, idx) => (
-          <div
-            key={idx}
-            className={`absolute inset-0 transition-opacity duration-500 ${
-              idx === currentIndex ? "opacity-100" : "opacity-0"
-            }`}
-          >
-            <Image
-              src={img}
-              alt={`${amenity.title} ${idx + 1}`}
-              fill
-              className="object-cover"
-            />
-          </div>
-        ))}
-
-        {/* Gradient overlay at bottom for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
+      <div className="relative aspect-[4/3] overflow-hidden">
+        <Image
+          src={amenity.images[currentIndex]}
+          alt={`${amenity.title} - Photo ${currentIndex + 1}`}
+          fill
+          className="object-cover transition-all duration-500"
+          sizes="(max-width: 768px) 100vw, 50vw"
+          unoptimized
+        />
 
         {/* Left Arrow */}
         <button
           onClick={prev}
-          className="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/80 hover:bg-white flex items-center justify-center shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer"
+          className="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/80 backdrop-blur-sm flex items-center justify-center text-gray-700 hover:bg-white hover:scale-110 transition-all shadow-md opacity-0 group-hover:opacity-100"
+          aria-label="Previous image"
         >
-          <ChevronLeft className="w-5 h-5 text-gray-800" />
+          <ChevronLeft className="w-5 h-5" />
         </button>
 
         {/* Right Arrow */}
         <button
           onClick={next}
-          className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/80 hover:bg-white flex items-center justify-center shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 cursor-pointer"
+          className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/80 backdrop-blur-sm flex items-center justify-center text-gray-700 hover:bg-white hover:scale-110 transition-all shadow-md opacity-0 group-hover:opacity-100"
+          aria-label="Next image"
         >
-          <ChevronRight className="w-5 h-5 text-gray-800" />
+          <ChevronRight className="w-5 h-5" />
         </button>
 
-        {/* Dots Indicator */}
+        {/* Dot Indicators */}
         <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5">
           {amenity.images.map((_, idx) => (
             <button
               key={idx}
               onClick={() => setCurrentIndex(idx)}
-              className={`w-2 h-2 rounded-full transition-all duration-300 cursor-pointer ${
+              className={`w-2 h-2 rounded-full transition-all ${
                 idx === currentIndex
                   ? "bg-white w-5"
-                  : "bg-white/50 hover:bg-white/70"
+                  : "bg-white/50 hover:bg-white/80"
               }`}
+              aria-label={`Go to image ${idx + 1}`}
             />
           ))}
         </div>
       </div>
 
-      {/* Content */}
-      <div className="p-6">
-        <h3 className="text-xl font-bold text-gray-900 mb-2 font-[family-name:var(--font-playfair)]">
+      {/* Text Content */}
+      <div className="p-8">
+        <h3 className="text-xl font-bold text-gray-900 mb-3 font-[family-name:var(--font-playfair)]">
           {amenity.title}
         </h3>
-        <p className="text-gray-600 text-sm leading-relaxed font-[family-name:var(--font-lato)]">
+        <p className="text-gray-600 leading-relaxed font-[family-name:var(--font-lato)]">
           {amenity.description}
         </p>
       </div>
@@ -129,7 +123,7 @@ function AmenityCard({ amenity }: { amenity: (typeof amenities)[0] }) {
 
 export default function Amenities() {
   return (
-    <section id="amenities" className="py-24 bg-stone-50">
+    <section id="amenities" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-emerald-700 font-semibold text-sm tracking-widest uppercase mb-3 font-[family-name:var(--font-lato)]">
@@ -140,7 +134,7 @@ export default function Amenities() {
           </h2>
         </div>
 
-        {/* 2x2 Grid */}
+        {/* 2x2 grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {amenities.map((amenity) => (
             <AmenityCard key={amenity.title} amenity={amenity} />
