@@ -9,11 +9,12 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: '**',
+        hostname: 'rainlandathirappilly.com',
+        pathname: '/wp-content/uploads/**', // Optional: restrict to specific paths
       },
       {
-        protocol: 'http',
-        hostname: '**',
+        protocol: 'https',
+        hostname: 'i.ytimg.com',
       },
     ],
   },
