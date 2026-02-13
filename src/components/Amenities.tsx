@@ -94,7 +94,6 @@ function AmenityCard({ amenity }: { amenity: (typeof amenities)[0] }) {
           className="object-cover transition-all duration-500 pointer-events-none"
           sizes="(max-width: 768px) 100vw, 50vw"
           draggable={false}
-          unoptimized
         />
 
         {/* Left Arrow */}
