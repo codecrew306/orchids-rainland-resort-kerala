@@ -10,9 +10,10 @@ const amenities = [
     description:
       "Take a refreshing dip in our stunning infinity pool overlooking the lush green valley. Perfect for unwinding after a day of exploring the nearby waterfalls.",
     images: [
-      "https://rainlandathirappilly.com/wp-content/uploads/2024/01/ERA06487-scaled.jpg",
-      "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.35-PM-1-1.webp",
+      "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.06-PM.webp",
       "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.05-PM-2.webp",
+      "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.35-PM-1-1.webp",
+      "https://rainlandathirappilly.com/wp-content/uploads/2024/01/ERA06487-scaled.jpg",
     ],
   },
   {
@@ -31,6 +32,7 @@ const amenities = [
     images: [
       "https://rainlandathirappilly.com/wp-content/uploads/2024/01/DSC05490-scaled.jpg",
       "https://rainlandathirappilly.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-03-at-12.28.33-PM-2048x1365.jpeg",
+
     ],
   },
   {
@@ -38,9 +40,7 @@ const amenities = [
     description:
       "Savour authentic Kerala cuisine and multi-cuisine dishes at our in-house restaurant. Fresh ingredients and traditional recipes make every meal memorable.",
     images: [
-      "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.11-PM-1.webp",
-      // "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.11-PM-1.webp",
-      // "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.11-PM-1.webp",
+      "https://rainlandathirappilly.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-10-at-2.17.11-PM-1.webp"
     ],
   },
 ];
